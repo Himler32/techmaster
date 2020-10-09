@@ -85,7 +85,7 @@ describe("API MOVIESNI TEST QILAMIZ", () => {
    
     describe("GET METODI ORQALI MOV KORSATDIK", () => {
       
-      it("Ger metod orqali api move korsatdik", (done) => {
+      it("Put metoq orqali edit qildik", (done) => {
         chai
           .request(server)
           .put(`/api/movies/${movieId}`)
@@ -106,7 +106,7 @@ describe("API MOVIESNI TEST QILAMIZ", () => {
     });
     describe("GET METODI ORQALI MOV KORSATDIK", () => {
       
-      it("Ger metod orqali api move korsatdik", (done) => {
+      it("deleto orqali remove qildik", (done) => {
         chai
           .request(server)
           .delete(`/api/movies/${movieId}`)

@@ -61,9 +61,9 @@ describe("API MOVIESNI TEST QILAMIZ", () => {
       });
     });
 
-    describe("GET METODI ORQALI MOV KORSATDIK", () => {
+    describe("Get metod orqali api movie korsatdik", () => {
       
-      it("Ger metod orqali api move korsatdik", (done) => {
+      it("Get metod orqali api movie korsatdik", (done) => {
         chai
           .request(server)
           .get(`/api/movies/${movieId}`)
@@ -83,7 +83,7 @@ describe("API MOVIESNI TEST QILAMIZ", () => {
     });
 
    
-    describe("GET METODI ORQALI MOV KORSATDIK", () => {
+    describe("Put metoq orqali edit qildik", () => {
       
       it("Put metoq orqali edit qildik", (done) => {
         chai
@@ -104,7 +104,7 @@ describe("API MOVIESNI TEST QILAMIZ", () => {
           });
       });
     });
-    describe("GET METODI ORQALI MOV KORSATDIK", () => {
+    describe("deleto orqali remove qildik", () => {
       
       it("deleto orqali remove qildik", (done) => {
         chai
